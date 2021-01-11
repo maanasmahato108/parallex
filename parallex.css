@@ -1,0 +1,147 @@
+body{
+    font-size: larger;
+    font-style: italic;
+}
+
+
+
+#background1::before{
+    background: url('./images/newyork.jpg') no-repeat center center/cover fixed;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: "";
+    z-index: -1;
+    opacity: 0.7;
+}
+#background1{
+    position: relative;
+}
+#background1 h1{
+    text-align: center;   
+    padding-top: 30%;
+    padding-bottom: 30%;
+    animation-name: text1animation;
+    animation-duration: 3s;
+    position: relative;
+    
+    
+}
+
+@keyframes text1animation{
+    0% {transform: none; color: red}
+    30% { transform: rotateX(360deg);  color:red}
+    60% { transform: rotateY(180deg);  color: yellow;}
+    80% {transform: rotateZ(180deg); color: black;}
+    80% {transform: rotateZ(-180deg); color: purple;}
+};
+
+
+
+#text1{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#text1 h1{
+    text-align: center;
+}
+#text1 p{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+#background2::before{
+    background: url('./images/tokyo.jpg') no-repeat center center/cover fixed;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: "";
+    z-index: -1;
+    opacity: 0.7;
+    margin: none;
+    padding: none;
+}
+#background2{
+    position: relative;
+}
+#background2 h1{
+    text-align: center;
+    padding: 15%;
+}
+
+
+#text2{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+#text2 h1{
+    text-align: center;
+}
+#text2 p{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+
+#background3::before{
+    background: url('./images/venice.jpg') no-repeat center center/cover fixed;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: "";
+    z-index: -1;
+    opacity: 0.7;
+    margin: none;
+    padding: none;
+}
+#background3{
+    position: relative;
+}
+#background3 h1{
+    text-align: center;
+    padding: 15%;
+}
+
+
+
+#text3{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+#text3 h1{
+    text-align: center;
+}
+#text3 p{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+
+#background4::before{
+    background: url('./images/venice.jpg') no-repeat center center/cover fixed;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: "";
+    z-index: -1;
+    opacity: 0.7;
+    margin: none;
+    padding: none;
+}
+#background4{
+    position: relative;
+}
+#background4 h1{
+    text-align: center;
+    padding: 20%;
+    padding-top: 30%;
+    padding-bottom: 30%;
+}
